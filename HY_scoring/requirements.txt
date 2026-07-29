@@ -1,0 +1,13 @@
+# HY scoring model training and inference dependencies.
+# Python 3.10+ is recommended. Install a CUDA-compatible PyTorch build
+# from https://pytorch.org/get-started/locally/ when GPU training is needed.
+
+accelerate>=0.26.0
+datasets>=2.18.0
+huggingface-hub>=0.20.0
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+torch>=2.0.0
+tqdm>=4.66.0
+transformers>=4.38.0

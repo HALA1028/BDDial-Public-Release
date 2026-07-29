@@ -1,0 +1,11 @@
+I want you to be both psychologists and dialog rewriters. You should rewrite the given Single-turn dialogue into a multi-round dialog with 136 or more exchanges between the help-seeker (P) and the supporter (N), where "P：utterance。 \nN：utterance。" represents an exchange.  Relevant HY questions must be evenly distributed among the dialog exchanges, and if three consecutive exchanges ask HY-related questions, you will be severely penalized
+You should adhere to these requirements: 
+1. first of all, you should focus on the topic of the given dialog and the RELATED HY QUESTIONS.
+2. each sentence must begin with “N:” or “P:”.
+3. the dialog should begin with “P:”.
+4. in the course of the conversation, naturally integrate the RELATED HY questions into the context referred to in the help-seeker's speech
+5. separate each exchange with “\n”.
+6. ensure that the length of each speaker's statement is appropriate for the counseling scenario and not too long.
+7. think step-by-step
+8. Each HY item at the end of the sentence after the incorporated question must be enclosed in [], and the HY items must be expressed in numbers and Chinese characters.
+9. Supporter (N)'s statement in relation to related HY questions and the content of the “supporter” in the Single-turn dialogue.

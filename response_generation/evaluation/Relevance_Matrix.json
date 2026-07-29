@@ -1,0 +1,173 @@
+{
+    "H1": [
+      {"item": "H2", "relevance": 0.80},
+      {"item": "H3", "relevance": 0.78},
+      {"item": "H20", "relevance": 0.76}
+    ],
+    "H2": [
+      {"item": "H1", "relevance": 0.80},
+      {"item": "H3", "relevance": 0.75},
+      {"item": "H20", "relevance": 0.74}
+    ],
+    "H3": [
+      {"item": "H1", "relevance": 0.78},
+      {"item": "H2", "relevance": 0.75},
+      {"item": "H20", "relevance": 0.73}
+    ],
+    "H4": [
+      {"item": "H5", "relevance": 0.85},
+      {"item": "H6", "relevance": 0.82},
+      {"item": "Y4", "relevance": 0.70}
+    ],
+    "H5": [
+      {"item": "H4", "relevance": 0.85},
+      {"item": "H6", "relevance": 0.83},
+      {"item": "Y4", "relevance": 0.72}
+    ],
+    "H6": [
+      {"item": "H5", "relevance": 0.83},
+      {"item": "H4", "relevance": 0.82},
+      {"item": "Y4", "relevance": 0.70}
+    ],
+    "H7": [
+      {"item": "H8", "relevance": 0.77},
+      {"item": "H23", "relevance": 0.75},
+      {"item": "H21", "relevance": 0.72}
+    ],
+    "H8": [
+      {"item": "H7", "relevance": 0.77},
+      {"item": "H23", "relevance": 0.74},
+      {"item": "H21", "relevance": 0.70}
+    ],
+    "H9": [
+      {"item": "H10", "relevance": 0.68},
+      {"item": "H11", "relevance": 0.67},
+      {"item": "Y5", "relevance": 0.65}
+    ],
+    "H10": [
+      {"item": "H11", "relevance": 0.80},
+      {"item": "H9", "relevance": 0.68},
+      {"item": "H1", "relevance": 0.60}
+    ],
+    "H11": [
+      {"item": "H10", "relevance": 0.80},
+      {"item": "H9", "relevance": 0.67},
+      {"item": "H13", "relevance": 0.65}
+    ],
+    "H12": [
+      {"item": "H13", "relevance": 0.75},
+      {"item": "H16", "relevance": 0.70},
+      {"item": "H22", "relevance": 0.68}
+    ],
+    "H13": [
+      {"item": "H12", "relevance": 0.75},
+      {"item": "H16", "relevance": 0.70},
+      {"item": "H22", "relevance": 0.67}
+    ],
+    "H14": [
+      {"item": "H15", "relevance": 0.65},
+      {"item": "H16", "relevance": 0.60},
+      {"item": "H23", "relevance": 0.58}
+    ],
+    "H15": [
+      {"item": "H14", "relevance": 0.65},
+      {"item": "H13", "relevance": 0.60},
+      {"item": "H21", "relevance": 0.59}
+    ],
+    "H16": [
+      {"item": "H13", "relevance": 0.70},
+      {"item": "H12", "relevance": 0.70},
+      {"item": "H22", "relevance": 0.69}
+    ],
+    "H17": [
+      {"item": "H21", "relevance": 0.66},
+      {"item": "H1", "relevance": 0.60},
+      {"item": "H2", "relevance": 0.58}
+    ],
+    "H18": [
+      {"item": "H1", "relevance": 0.65},
+      {"item": "H4", "relevance": 0.62},
+      {"item": "H5", "relevance": 0.60}
+    ],
+    "H19": [
+      {"item": "H21", "relevance": 0.64},
+      {"item": "H20", "relevance": 0.62},
+      {"item": "H1", "relevance": 0.60}
+    ],
+    "H20": [
+      {"item": "H1", "relevance": 0.76},
+      {"item": "H2", "relevance": 0.74},
+      {"item": "H3", "relevance": 0.73}
+    ],
+    "H21": [
+      {"item": "H7", "relevance": 0.72},
+      {"item": "H8", "relevance": 0.70},
+      {"item": "H17", "relevance": 0.66}
+    ],
+    "H22": [
+      {"item": "H16", "relevance": 0.69},
+      {"item": "H13", "relevance": 0.67},
+      {"item": "H12", "relevance": 0.68}
+    ],
+    "H23": [
+      {"item": "H7", "relevance": 0.75},
+      {"item": "H8", "relevance": 0.74},
+      {"item": "H21", "relevance": 0.70}
+    ],
+    "H24": [
+      {"item": "H3", "relevance": 0.65},
+      {"item": "H1", "relevance": 0.64},
+      {"item": "H21", "relevance": 0.63}
+    ],
+    "Y1": [
+      {"item": "Y2", "relevance": 0.80},
+      {"item": "Y4", "relevance": 0.75},
+      {"item": "Y5", "relevance": 0.70}
+    ],
+    "Y2": [
+      {"item": "Y1", "relevance": 0.80},
+      {"item": "Y6", "relevance": 0.77},
+      {"item": "Y4", "relevance": 0.74}
+    ],
+    "Y3": [
+      {"item": "Y1", "relevance": 0.68},
+      {"item": "Y2", "relevance": 0.66},
+      {"item": "Y4", "relevance": 0.60}
+    ],
+    "Y4": [
+      {"item": "Y1", "relevance": 0.75},
+      {"item": "Y2", "relevance": 0.74},
+      {"item": "Y5", "relevance": 0.70}
+    ],
+    "Y5": [
+      {"item": "Y1", "relevance": 0.70},
+      {"item": "Y2", "relevance": 0.68},
+      {"item": "Y6", "relevance": 0.65}
+    ],
+    "Y6": [
+      {"item": "Y2", "relevance": 0.77},
+      {"item": "Y7", "relevance": 0.72},
+      {"item": "Y5", "relevance": 0.65}
+    ],
+    "Y7": [
+      {"item": "Y6", "relevance": 0.72},
+      {"item": "Y9", "relevance": 0.70},
+      {"item": "Y8", "relevance": 0.68}
+    ],
+    "Y8": [
+      {"item": "Y7", "relevance": 0.68},
+      {"item": "Y9", "relevance": 0.67},
+      {"item": "Y1", "relevance": 0.60}
+    ],
+    "Y9": [
+      {"item": "Y7", "relevance": 0.70},
+      {"item": "Y6", "relevance": 0.68},
+      {"item": "Y5", "relevance": 0.66}
+    ],
+    "Y10": [
+      {"item": "Y7", "relevance": 0.60},
+      {"item": "Y6", "relevance": 0.58},
+      {"item": "Y1", "relevance": 0.57}
+    ]
+  }
+  

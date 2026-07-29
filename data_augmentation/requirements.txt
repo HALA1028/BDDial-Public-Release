@@ -1,0 +1,6 @@
+# Data augmentation dependencies for the BDDial public release.
+# Python 3.10+ is recommended.
+
+openai>=1.0.0
+outlines>=0.0.46
+tqdm>=4.66.0

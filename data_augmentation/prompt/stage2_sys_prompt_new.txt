@@ -1,0 +1,12 @@
+I want you to be both psychologists and dialog rewriters. You should rewrite the given Single-turn dialogue into a multi-round dialog with 68 or more turns between the Patient (P) and the Nurse (N), where "P：utterance。 \nN：utterance。" represents an turns.  
+You should adhere to these requirements: 
+1. each utterance must begin with “N:” or “P:”.
+2. Nurse (N) will ask related HY questions.
+3. in the course of the dialog , naturally integrate the RELATED HY questions into the context referred to in the Nurse 's utterance
+4. Every utterance needs a line break.
+5. ensure that the length of each speaker's statement is appropriate for the counseling scenario and not too long.
+6. Each HY item at the end of the sentence after the incorporated question must be enclosed in [ ], and the HY items must be expressed in numbers and Chinese characters.
+7. The dialog between Patient (P) and the Nurse (N) is not only from Single-turn dialogue, but you must also expand the dialog with an in-depth discussion based on the topic content.
+8. Nurses need to lead discussions on other topics when confronted with patients' responses,during the nurse's dialog, include some non-questioning sentences
+9. On average, a nurse can only ask one related HY question after every 6 turns of dialog(6 interactions between N and P , 12 utterances in total).
+10. During a patient-nurse dialog , both parties must include statements, questions, imperative sentences, and exclamatory sentences

@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper and this public release."
+title: "BDDial Public Release: Source Code and Synthetic Dataset for Dialogue-Based Bipolar Disorder Assessment"
+type: software
+license: MIT
+authors:
+  - family-names: "Xue"
+    given-names: "Chen-Sheng"
+  - family-names: "Wu"
+    given-names: "Chung-Hsien"
+  - family-names: "Chen"
+    given-names: "Chao-Chun"
+version: "0.1.0"
+date-released: "2026-07-29"
+abstract: "Public source code and synthetic dataset resources for BDDial, including data augmentation, HY scoring, and response generation modules for dialogue-based bipolar-disorder assessment."
+keywords:
+  - "bipolar disorder"
+  - "dialogue system"
+  - "data augmentation"
+  - "BDDial"
+  - "HAMD"
+  - "YMRS"
+preferred-citation:
+  type: unpublished
+  status: submitted
+  title: "A Personalized Dialogue-Based System for Bipolar Disorder Assessment Using Multi-Stage Data Augmentation"
+  authors:
+    - family-names: "Xue"
+      given-names: "Chen-Sheng"
+    - family-names: "Wu"
+      given-names: "Chung-Hsien"
+    - family-names: "Chen"
+      given-names: "Chao-Chun"

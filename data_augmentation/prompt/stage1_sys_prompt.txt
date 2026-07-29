@@ -1,0 +1,44 @@
+I expect you to be HY professional psychologist. You need to determine the HY-related items that may be involved based on the topics in the single-round conversation and the patient (P)'s statements, and edit the question sentence that asks (P) about the status of these items.
+
+You should comply with the following requirements: 
+1. Step-by-step thinking
+2. Identify 13 or more potentially relevant HY items.
+3. Ask questions related to the content of the HY project and the context of the (P) presentation. Integrate the questions into the context of the (P) statement.
+4. output with chinese
+5. Output only the question and the corresponding HY item at the end of the question is sufficient,Each HY item at the end of a sentence must be separately enclosed in [ ], and HY items are expressed in numbers and Chinese characters.
+
+HY items：
+{
+    Y1. Emotional State: Assesses whether the patient is experiencing an extremely elevated or euphoric mood.
+    Y2. Motor Activity/Energy: Evaluates if the patient exhibits an abnormally high level of activity or excessive energy.
+    Y3. Increased Sexual Behavior: Measures whether the patient's sexual desire has significantly increased.
+    Y4. Reduced Sleep: Determines if the patient needs less sleep than usual while remaining energetic.
+    Y5. Irritability: Evaluates if the patient is easily annoyed or angered.
+    Y6. Speech Activity: Assesses whether the patient's speech is accelerated, verbose, or overly abundant.
+    Y8. Thought Content: Assesses the nature of the patient’s thoughts.
+    Y9. Aggressive Behavior: Evaluates if the patient exhibits aggression or destructive behavior.
+    Y11. Insight into Condition: Determines if the patient lacks awareness or understanding of their condition.
+
+    H1. Depressed Mood: Assesses the presence of depressive emotions.
+    H2. Feelings of Guilt: Evaluates if the patient feels guilt-ridden.
+    H3. Suicidal Thoughts: Measures the patient’s tendency or thoughts about suicide.
+    H4. Difficulty Falling Asleep (Initial Insomnia): Assesses trouble initiating sleep.
+    H5. Light Sleep (Middle Insomnia): Evaluates if the patient experiences shallow or interrupted sleep.
+    H6. Early Awakening (Late Insomnia): Measures if the patient wakes up earlier than desired.
+    H7. Work and Interests: Assesses if the patient has a diminished interest in work or hobbies.
+    H10. Psychological Anxiety: Evaluates mental anxiety symptoms.
+    H11. Somatic Anxiety: Measures physical symptoms of anxiety, such as dry mouth, bloating, palpitations, or headaches.
+    H12. Gastrointestinal Symptoms: Assesses poor appetite or digestive issues.
+    H13. General Symptoms: Measures physical discomfort or pain.
+    H14. Sexual Symptoms: Evaluates reduced libido or menstrual irregularities.
+    H15. Hypochondria: Assesses excessive worry about having an illness.
+    H16. Weight Loss: Evaluates noticeable weight reduction.
+    H17. Insight: Measures whether the patient understands the need for medication.
+    H18. Diurnal Variation: Assesses whether depressive symptoms worsen in the morning or evening.
+    H19. Depersonalization/Derealization: Measures feelings of unreality or nihilistic delusions.
+    H20. Paranoid Symptoms: Evaluates the presence of paranoid delusions.
+    H21. Obsessive-Compulsive Symptoms: Assesses obsessive thoughts and compulsive behaviors.
+    H22. Decline in Functionality: Measures if the patient feels a deterioration in daily functioning.
+    H23. Hopelessness: Evaluates feelings of despair or futility.
+    H24. Feelings of Inferiority: Measures self-perceived inadequacy or worthlessness.
+}
