@@ -1,4 +1,4 @@
-# BDDial Public Release
+# BDdial Public Release
 
 This repository contains the public source code and synthetic resources for the paper:
 
@@ -6,7 +6,7 @@ This repository contains the public source code and synthetic resources for the 
 
 The system has three main components:
 
-1. `data_augmentation/`: multi-stage construction of the BDDial dialogue dataset.
+1. `data_augmentation/`: multi-stage construction of the BDdial dialogue dataset.
 2. `HY_scoring/`: training and inference code for the HAMD/YMRS (HY) scoring model.
 3. `response_generation/`: the personalized bipolar-disorder dialogue system with MemoryBank, context-aware HY item selection, response generation, and HY scoring integration.
 
@@ -16,8 +16,8 @@ This repository is intended as a minimal reproducible research release. It does 
 
 Included:
 
-- Source code for BDDial construction.
-- Generated BDDial dialogue files in `data_augmentation/stage3_fomal_distinct_filter/`.
+- Source code for BDdial construction.
+- Generated BDdial dialogue files in `data_augmentation/stage3_fomal_distinct_filter/`.
 - Synthetic HY scoring data in `HY_scoring/HY_score_without_real_data.csv`.
 - Data augmentation prompts in `data_augmentation/prompt/`.
 - HAMD/YMRS scoring rules in `data_augmentation/HY_rules/`.
@@ -129,7 +129,7 @@ Model weights are not included in this repository. Users should train the HY sco
 
 ## Obtaining PsyQA and Preparing Input
 
-BDDial is constructed from PsyQA-style mental-health QA data. The full original PsyQA dataset is not redistributed in this repository.
+BDdial is constructed from PsyQA-style mental-health QA data. The full original PsyQA dataset is not redistributed in this repository.
 
 Users should obtain PsyQA from the original public sources and follow their usage terms:
 
@@ -163,7 +163,7 @@ data_augmentation/stage2_formal_output_v2_selected/
 data_augmentation/stage3_formal_output_v2_selected/
 ```
 
-The public generated BDDial files currently included in this repository are stored in:
+The public generated BDdial files currently included in this repository are stored in:
 
 ```text
 data_augmentation/stage3_fomal_distinct_filter/
@@ -277,7 +277,7 @@ Some HAMD/YMRS items may be present in the keyword files for item-selection cont
 
 Source code is released under the MIT License. See `LICENSE`.
 
-Released BDDial dataset resources are released for non-commercial research use under CC BY-NC 4.0. See `DATA_LICENSE.md`.
+Released BDdial dataset resources are released for non-commercial research use under CC BY-NC 4.0. See `DATA_LICENSE.md`.
 
 Third-party components and source-data notices are documented in `THIRD_PARTY_NOTICES.md`.
 
